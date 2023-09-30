@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <title>Youtube video</title>
+  </head>
+  <body >
+   <header class="container mx-auto mb-10 mt-5">
+    <nav>
+      <div class="phtube mt-5" >
+        <div class="navbar bg-base-100 ">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <img src="Logo.png" alt="" />
+            </div>
+          </div>
+          <div class="navbar-center">
+            <button class="btn btn-outline">Short By Views</button>
+          </div>
+          <div class="navbar-end " >
+           <a href="blog.html"> <button class="btn btn-active btn-secondary m-5">Blog</button></a>
+            
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+   </header>
+   
+   <main>
+     <!-- button section -->
+
+     <div id="button-container" class="button-container justify-center gap-5 mt-7 flex">
+      <!-- <button class="btn btn-outline">All </button>
+      <button class="btn btn-outline btn-primary">Music</button>
+       <button class="btn btn-outline btn-secondary">Comedy</button>
+       <button class="btn btn-outline btn-accent">Drawing</button> -->
+
+    </div>
+
+    <!-- Show all video card -->
+     <section id="card-container" class="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-5 gap-5">
+      <!-- <div class="card w-76 h-66 bg-base-100 shadow-xl mt-6">
+        <img class=" w-[300px] h-[300px] rounded-lg" src="youtube.png" alt="" />
+        <p class="absolute bottom-0 right-2 text-white">3h 22min 22sec</p>
+      </div> 
+   
+      <section class="mt-5 flex gap-3 pl-4">
+        <div><img class="rounded-full w-[40px] h-[40px]" src="player.jpeg" alt=""></div>
+       <div class="font-medium"> <h4>Building a Winning UX Strategy <br> Using the Kano Model</h4></div> 
+      </section>
+     <div class="name ml-16 font-medium">
+       <p>Awlad Hossain</p>
+        <p>91k views</p> 
+     </div>  -->
+    </section>
+
+    <section id="drawing-btn" class="hidden">
+      <div class="h-[80vh] flex items-center justify-center">
+        <div class="flex flex-col items-center">
+          <img src="Icon.png" alt=" " />
+          <h2 class="text-3xl font-bold text-[#171717]">
+            Oops!! Sorry, There is no <br />
+            content here
+          </h2>
+        </div>
+      </div>
+    </section>
+   </main>
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
